@@ -20,10 +20,37 @@
         </label>
     </div>
     <nav id="nav">
+        <a href="#homework">Homework 03-05-24</a>
         <a href="#home">Home</a>
         <a href="#project">Project</a>
         <a href="#contact">Contact</a>
     </nav>
+    <section id="homework">
+        <div class="quiz-container">
+            <p id="question"><font size="5">ข้อที่ 1. PIM ย่อมาจากอะไร ?</font></p>
+            <button class="button" onclick="checkAnswer('a')">A) พีไอเอ็ม</button>
+            <button class="button" onclick="checkAnswer('b')">B) ปิ๋ม</button>
+            <button class="button" onclick="checkAnswer('c')">C) พิม</button>
+            <button class="button" onclick="checkAnswer('d')">D) ภีม</button>
+            <font size="4"><p id="result"></p></font>
+            <br>
+            <p id="question"><font size="5">ข้อที่ 2. แผนก Store Layout สังกัด CSD &nbsp;/&nbsp; (CSD ย่อมาจากอะไร ?)</font></p>
+            <p id="question"><font size="5"></font></p>
+            <button class="button" onclick="checkAnswer1('e')">A) Cat Sleep Dog</button>
+            <button class="button" onclick="checkAnswer1('f')">B) Commercial Support & Development</button>
+            <button class="button" onclick="checkAnswer1('g')">C) Can Sleep Do</button>
+            <button class="button" onclick="checkAnswer1('h')">D) Code Style Deploy</button>
+            <font size="4"><p id="result1"></p></font>
+        </div>
+        <div align="center">
+            <font size="5"><span id="score">ผลคะแนน</font></span><br>
+             <hr>
+             <font size="4">ข้อที่ 1 = <span id="sum">0</span> คะแนน<br>
+             ข้อที่ 2 = <span id="sum1">0</span> คะแนน<br>
+             <hr>
+             รวมคะแนน = <span id="sum2">0</span> คะแนน</font>
+        </div>
+    </section>
     <section id="home">
         <div class="title-group">
             <h1>โรจน์ Love <img src="7-11_.png" alt="" width="100"> Studio</h1>
